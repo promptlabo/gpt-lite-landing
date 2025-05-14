@@ -1,4 +1,4 @@
-// components/LiteLandingPage.tsx
+// components/LiteLandingPage.tsx - LP統合親コンポーネント
 import React from "react";
 import Head from "next/head";
 import HeroSection from "@/components/HeroSection";
@@ -34,4 +34,3 @@ export default function LiteLandingPage() {
     </>
   );
 }
-
