@@ -1,4 +1,4 @@
-// pages/_app.tsx
+// pages/_app.tsx - グローバルCSSを適用するためのエントリーポイント
 import '@/styles/globals.css';
 import type { AppProps } from 'next/app';
 
