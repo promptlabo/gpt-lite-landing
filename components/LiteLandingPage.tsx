@@ -23,11 +23,11 @@ export default function LiteLandingPage() {
         <meta property="og:url" content="https://gpt-tutor-lite.vercel.app/" />
         <meta property="og:image" content="/ogp_common.png" />
 
-        {/* Twitterカード専用設定 */}
+        {/* Twitterカード専用設定（キャッシュ更新のため v2 に変更） */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="GPT教材生成Lite版｜たった3分で教材作成完了" />
         <meta name="twitter:description" content="教科・学年・単元を入力するだけ。GPTが教材とクイズを3分で自動生成！" />
-        <meta name="twitter:image" content="/ogp_twitter.png" />
+        <meta name="twitter:image" content="/ogp_twitter_v2.png" />
       </Head>
 
       <main className="px-4 py-12 max-w-4xl mx-auto space-y-12">
