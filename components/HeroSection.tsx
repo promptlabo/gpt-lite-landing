@@ -7,7 +7,7 @@ export default function HeroSection() {
   const handleLineClick = () => {
     if (typeof window !== "undefined" && window.gtag) {
       window.gtag("event", "conversion", {
-        send_to: "AW-XXXXXXX/YYYYYYY", // ← あなたのGoogle広告またはGAタグに差し替え
+        send_to: "AW-933468720/beBqCNO-_McaELC0jr0D",
       });
     }
   };
