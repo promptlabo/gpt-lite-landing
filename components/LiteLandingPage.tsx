@@ -15,11 +15,19 @@ export default function LiteLandingPage() {
       <Head>
         <title>GPT教材生成Lite版｜たった3分で教材作成完了</title>
         <meta name="description" content="GPTがあなたの代わりに教材を自動生成。教科・学年・単元を入力するだけで、要点まとめとクイズを即作成。無料で今すぐ体験。" />
+
+        {/* Open Graph（Facebook・LINE・Discord など） */}
         <meta property="og:title" content="GPT教材生成Lite版｜たった3分で教材作成完了" />
-        <meta property="og:description" content="GPTがあなたの代わりに教材を自動生成。教科・学年・単元を入力するだけで、要点まとめとクイズを即作成。" />
+        <meta property="og:description" content="教科・学年・単元を入力するだけ。GPTが教材とクイズを3分で自動生成！" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://gpt-tutor-lite.vercel.app/" />
-        <meta property="og:image" content="/ogp-lite.png" />
+        <meta property="og:image" content="/ogp_common.png" />
+
+        {/* Twitterカード専用設定 */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="GPT教材生成Lite版｜たった3分で教材作成完了" />
+        <meta name="twitter:description" content="教科・学年・単元を入力するだけ。GPTが教材とクイズを3分で自動生成！" />
+        <meta name="twitter:image" content="/ogp_twitter.png" />
       </Head>
 
       <main className="px-4 py-12 max-w-4xl mx-auto space-y-12">
